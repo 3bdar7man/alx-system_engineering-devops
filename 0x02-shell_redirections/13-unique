@@ -1,0 +1,3 @@
+#!/bin/bash
+read -a a 
+echo ${a[*]} | tr " " "\n" | sort -u 
