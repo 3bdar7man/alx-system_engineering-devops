@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -ne {{a..n}{a..z},o{a..n},o{p..z},{p..z}{a..z}}"\n" | xargs -n1 echo
